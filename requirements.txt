@@ -1,0 +1,34 @@
+# SmartSight AI - Platform Dependencies
+# Tagline: "Upload. Analyze. Visualize. Predict."
+
+# Core Data Processing & Numerical Computing
+pandas>=2.2.0
+numpy>=1.26.0
+openpyxl>=3.1.2
+
+# Machine Learning & Statistical Analytics
+scikit-learn>=1.4.0
+scipy>=1.12.0
+
+# Interactive & Static Visualization
+matplotlib>=3.8.0
+plotly>=5.18.0
+
+# Document & Boardroom Report Generation
+reportlab>=4.0.0
+
+# Desktop GUI Application (CustomTkinter)
+customtkinter>=5.2.0
+
+# Streamlit Interactive Web Application
+streamlit>=1.31.0
+
+# High-Performance REST API Backend (FastAPI)
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+pydantic>=2.6.0
+python-multipart>=0.0.9
+
+# Networking & Optional LLM Integration
+requests>=2.31.0
+httpx>=0.27.0
